@@ -37,8 +37,10 @@
   },
   "devDependencies": {
     "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.1",
+    "install-peerdeps": "^3.0.3",
     "prettier": "^2.3.2"
   }
 }
