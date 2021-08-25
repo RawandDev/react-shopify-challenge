@@ -26,7 +26,7 @@ function App() {
   console.log(response, loading);
   return (
     <main
-      className=" w-screen h-screen  "
+      className="w-screen h-screen"
       style={{
         backgroundImage:
           "url(" +
