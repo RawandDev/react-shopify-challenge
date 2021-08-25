@@ -7,7 +7,7 @@ const useAxios = (axiosParams) => {
   const [loading, setLoading] = useState(false);
   const [query, setQuery] = useState("");
 
-  const baseURL = `https://api.themoviedb.org/3/search/movie?api_key=${process.env.REACT_APP_API_KEY}&query=${query}`;
+  const baseURL = `https://api.themoviedb.org/3/search/movie?api_key=e15bbb219d7a04f817488309f7efe37f&query=${query}`;
   axios.defaults.baseURL = `${baseURL}`;
   const fetchData = async (params) => {
     setLoading(true);
