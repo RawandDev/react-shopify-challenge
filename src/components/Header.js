@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="flex justify-around items-center text-lg">
+    <div className="flex justify-around items-center text-lg bg-gray-300">
       <img
         src="https://www.vectorlogo.zone/logos/shopify/shopify-ar21.svg"
         alt="shopify"

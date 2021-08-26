@@ -5,6 +5,7 @@ import MoviesList from "./components/MoviesList";
 import useAxios from "./components/hooks/useAxios";
 import Search from "./components/Search";
 import Header from "./components/Header";
+import Nomination from "./components/Nomination";
 
 function App() {
   useEffect(() => {
@@ -24,12 +25,12 @@ function App() {
 
   return (
     <main>
-      {/* <h1 className="p-12 text-2xl font-bold text-center" data-aos="fade-up">
-        Search and Nominate movies you like
-      </h1> */}
       <Header />
       <Search queryHandler={queryHandler} loadingHandler={loadingHandler} />
-      <MoviesList data={response} loading={loading} />
+      <div className="flex">
+        <MoviesList data={response} loading={loading} />
+        <Nomination />
+      </div>
     </main>
   );
 }
