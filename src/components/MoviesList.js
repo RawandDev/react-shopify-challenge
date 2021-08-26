@@ -1,5 +1,6 @@
 import React from "react";
 import Movie from "./Movie";
+import MovieContainer from "./UI/MovieContainer";
 
 /* eslint-disable react/prop-types */
 function MoviesList({ data, loading }) {
@@ -16,7 +17,7 @@ function MoviesList({ data, loading }) {
     />
   ));
 
-  return <div>{moviesList}</div>;
+  return <MovieContainer>{moviesList}</MovieContainer>;
 }
 
 export default MoviesList;
